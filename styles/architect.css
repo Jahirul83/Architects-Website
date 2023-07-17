@@ -121,24 +121,61 @@ main {
 
 }
 
+/* features section styles */
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card {
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+
+}
+
 /* facts styles */
 
-.facts-cards{
+.facts-cards {
     display: flex;
     justify-content: space-around;
 }
-.facts-cards .card-title{
+
+.facts-cards .card-title {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 5px;
 }
+
 .facts-cards .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
     padding: 30px;
 }
-.facts-cards .card-stats{
+
+.facts-cards .card-stats {
     font-size: 2.8rem;
     color: #424242;
     margin: 10px 0px;
@@ -147,19 +184,22 @@ main {
 
 
 /* sponsors styles */
-.sponsors{
+.sponsors {
     text-align: center;
 }
-.sponsors-img{
+
+.sponsors-img {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
     gap: 40px;
     align-items: center;
 }
-.sponsors-img img{
+
+.sponsors-img img {
     width: 165px;
 }
+
 /* responsive styles */
 /* small devices */
 @media screen and (max-width:576px) {
@@ -170,8 +210,7 @@ main {
     nav,
     .teams-container,
     .facts-cards,
-    .sponsors-img
-    {
+    .sponsors-img {
         flex-direction: column;
     }
 
@@ -179,13 +218,13 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content ,
-    .facts-cards
-     {
+    .teams-content,
+    .facts-cards {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .facts-cards{
+
+    .facts-cards {
         gap: 20px;
     }
 
@@ -199,8 +238,7 @@ main {
 
     nav,
     .teams-container,
-    .sponsors-img 
-    {
+    .sponsors-img {
         flex-direction: column;
     }
 
